@@ -1,0 +1,34 @@
+body{
+  background-image : url("https://wallpaperplay.com/walls/full/3/7/2/268532.jpg");
+  background-size: auto 100vh;
+  height: 100vh;
+}
+.menu{
+  background-color:pink;
+}
+.menu ul{
+  display:flex;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+a:hover{
+  text-decoration: underline;
+}
+.site-title{
+  font-family: Arial;
+  color:pink;
+  text-align: center;
+} 
+
+.site-subtitle{
+  color: white;
+  font-family: serif;
+  text-align: center;
+  font-style:italic;
+}
