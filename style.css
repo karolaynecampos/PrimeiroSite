@@ -1,34 +1,87 @@
+/* SOFT RESET DO CSS*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
-  background-image : url("https://wallpaperplay.com/walls/full/3/7/2/268532.jpg");
+  background-image : url("https://image.freepik.com/free-vector/vector-floral-seamless-pattern-wallpaper-endless-print_43778-388.jpg");
   background-size: auto 100vh;
   height: 100vh;
+  font-size: 14px;
 }
+
+header{
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .menu{
-  background-color:pink;
+  background-color:rgba(255, 217, 2, 0.774);
+  position: fixed;
+  width: 100vw;
+  top: 0;
 }
+
 .menu ul{
   display:flex;
   justify-content: space-around;
 }
+
 .menu li{
   list-style: none;
 }
+
+.menu a {
+  /* aumentar area de clique de tags que nao quebram linha */
+  display: block;
+  padding: 10px 20px;
+}
+
 a{
   text-decoration:none;
   color:black;
+  font-weight: bold;
 }
+
 a:hover{
   text-decoration: underline;
 }
+
 .site-title{
-  font-family: Arial;
-  color:pink;
+  font-family: arial;
+  color:white;
   text-align: center;
+  background-color: rgb(85, 107, 47);
+  font-size: 3em;
 } 
 
 .site-subtitle{
-  color: white;
+  color: black;
   font-family: serif;
   text-align: center;
   font-style:italic;
+  background-color: rgba(255, 217, 2, 0.801);
+  box-shadow: 10px 10px 20px 0px black;
+}
+
+.img-portfolio{
+  height: 130px;
+  width: 180px;
+}
+
+section{
+  background-color:rgba(255, 217, 2, 0.600);
+}
+section h2{
+  text-align: center;
+}
+
+section div {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
 }
